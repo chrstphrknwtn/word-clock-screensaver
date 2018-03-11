@@ -1,0 +1,38 @@
+@font-face {
+  font-family:'Libre Franklin';
+  src:url('font/LibreFranklin-Black.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 8vh 0;
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+word-clock {
+  width: 100%;
+  text-align: center;
+  font-family: 'Libre Franklin';
+  font-size: 7vw;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+}
+
+.kern {
+  letter-spacing: -0.11em;
+}
